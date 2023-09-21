@@ -4,23 +4,23 @@
 using namespace std;
 vector<vector<int>> party;
 vector<bool> fact_human;
-vector<int> parent;
-void Union(int a, int b);
-int find(int a);
+vector<int> parent_1043;
+void Union_1043(int a, int b);
+int find_1043(int a);
 
-void Union(int a, int b){
-    a = find(a);
-    b = find(b);
+void Union_1043(int a, int b){
+    a = find_1043(a);
+    b = find_1043(b);
     if (a != b) {
-        parent[b] = a;
+        parent_1043[b] = a;
     }
 }
 
-int find(int a){
-    if (a == parent[a])
+int find_1043(int a){
+    if (a == parent_1043[a])
         return a;
     else
-        return parent[a] = find(parent[a]);
+        return parent_1043[a] = find_1043(parent_1043[a]);
 }
 
 int main_1043(){
@@ -28,7 +28,7 @@ int main_1043(){
     cin >> N >> M;
     party.resize(M);
     fact_human.resize(N + 1, false);
-    parent.resize(N + 1);
+    parent_1043.resize(N + 1);
 
     int fact = 0;
     cin >> fact;
@@ -53,12 +53,12 @@ int main_1043(){
     }
 
     for(int i = 1; i < N + 1; i++)
-        parent[i] = i;
+        parent_1043[i] = i;
 
     for (int i = 0; i < M; i++) {
         int firstPeople = party[i][0];
         for (int j = 1; j < party[i].size(); j++) {
-            Union(firstPeople, party[i][j]);
+            Union_1043(firstPeople, party[i][j]);
         }
     }
 
@@ -68,7 +68,7 @@ int main_1043(){
         int first = party[i][0];
         for(int j = 1; j < N; j++){
             if(fact_human[j]){
-                if(find(first) == find(j)){
+                if(find_1043(first) == find_1043(j)){
                     check = true;
                     break;
                 }

@@ -2,8 +2,8 @@
 #include <vector>
 
 using namespace std;
-vector<int> Number;
-vector<int> Sort;
+vector<int> Number_merge;
+vector<int> Sort_merge;
 void mergesort(int start, int end);
 void merge(int start, int end);
 
@@ -14,20 +14,20 @@ void merge(int start, int end){
     int k = start;
 
     while (i <= mid && j <= end) {
-        if (Number[i] <= Number[j]) {
-            Sort[k++] = Number[i++];
+        if (Number_merge[i] <= Number_merge[j]) {
+            Sort_merge[k++] = Number_merge[i++];
         } else {
-            Sort[k++] = Number[j++];
+            Sort_merge[k++] = Number_merge[j++];
         }
     }
     while (i <= mid) {
-        Sort[k++] = Number[i++];
+        Sort_merge[k++] = Number_merge[i++];
     }
     while (j <= end) {
-        Sort[k++] = Number[j++];
+        Sort_merge[k++] = Number_merge[j++];
     }
     for (k = start; k <= end; k++) {
-        Number[k] = Sort[k];
+        Number_merge[k] = Sort_merge[k];
     }
 }
 
@@ -40,18 +40,18 @@ void mergesort(int start, int end){
     }
 }
 
-int main () {
+int main_merge () {
     int N;
     cin >> N;
     for(int i = 0; i < N; i++) {
         int temp = 0;
         cin >> temp;
-        Number.push_back(temp);
+        Number_merge.push_back(temp);
     }
-    Sort.resize(N);
+    Sort_merge.resize(N);
     mergesort(0, N - 1);
     for(int i = 0; i < N; i++) {
-        cout << Number[i] << "\n";
+        cout << Number_merge[i] << "\n";
     }
     return 0;
 }

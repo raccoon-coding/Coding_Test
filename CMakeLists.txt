@@ -15,4 +15,5 @@ add_executable(coding_test main.cpp
         Search/ABCDE_13023.cpp
         Graph/lier_1043.cpp
         Sorting/QuickSort.cpp
-        Sorting/MergeSort.cpp)
+        Sorting/MergeSort.cpp
+        Graph/MST_1197.cpp)
