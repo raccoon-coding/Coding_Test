@@ -17,4 +17,5 @@ add_executable(coding_test main.cpp
         Sorting/QuickSort.cpp
         Sorting/MergeSort.cpp
         Graph/MST_1197.cpp
-        Graph/1219_Bellman-Ford.cpp)
+        Graph/1219_Bellman-Ford.cpp
+        Graph/BFS_1325.cpp)
