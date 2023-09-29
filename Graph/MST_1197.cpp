@@ -17,7 +17,7 @@ long sum_result_1197;
  * 단 Cycle을 만들지 않기 위하여 Unoin, Find 알고리즘을 도입한다.
  * */
 
-bool compare(const tuple <int, int, int> &a, const tuple <int, int, long> &b){
+bool compare_1197(const tuple <int, int, long> &a, const tuple <int, int, long> &b){
     return get<2>(a) < get<2>(b);
 }
 
@@ -59,7 +59,7 @@ int main_1197(){
         cin >> now_node >> next_node >> next_edge;
         Edges_1197.emplace_back(now_node, next_node, next_edge);
     }
-    sort(Edges_1197.begin(), Edges_1197.end(),compare);
+    sort(Edges_1197.begin(), Edges_1197.end(), compare_1197);
     combine_1197();
     cout << sum_result_1197 << "\n";
     return 0;

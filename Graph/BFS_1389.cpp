@@ -38,7 +38,7 @@ void BFS_1389(int start){
     sum_human_1389[start] = Kevin;
 }
 
-int main(){
+int main_1389(){
     int N = 0, M = 0;
     cin >> N >> M;
     human_graph_1389.resize(N + 1);

@@ -19,4 +19,5 @@ add_executable(coding_test main.cpp
         Graph/MST_1197.cpp
         Graph/1219_Bellman-Ford.cpp
         Graph/BFS_1325.cpp
-        Graph/BFS_1389.cpp)
+        Graph/BFS_1389.cpp
+        Graph/MST_1414.cpp)
