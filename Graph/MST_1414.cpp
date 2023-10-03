@@ -49,7 +49,7 @@ void calculator() {
     }
 }
 
-int main(){
+int main_1414(){
     int N = 0;
     result = 0;
     cin >> N;

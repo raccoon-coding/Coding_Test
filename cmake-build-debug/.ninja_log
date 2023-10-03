@@ -1,18 +1,20 @@
 # ninja log v5
 670	1331	1695622347747602093	CMakeFiles/coding_test.dir/Search/Maze_navigation_2178.cpp.o	10429cb8253658ac
 795	1315	1695622347731513854	CMakeFiles/coding_test.dir/Search/ABCDE_13023.cpp.o	9841c0c11227d020
-680	1225	1695622347641579853	CMakeFiles/coding_test.dir/Search/Number_of_connection_elements_11724.cpp.o	aea25f631021e23c
+6	636	1696312809516736519	CMakeFiles/coding_test.dir/Search/Number_of_connection_elements_11724.cpp.o	aea25f631021e23c
+1	668	1695622347082964021	CMakeFiles/coding_test.dir/Search/Kth_number_1300.cpp.o	9a22bbeb894520ff
+1	805	1695622347220430928	CMakeFiles/coding_test.dir/Search/DFSandBFS_1260.cpp.o	6e359fba06914efc
+9	2679	1696310566113089342	CMakeFiles/coding_test.dir/Graph/TopologicalSorting_1516.cpp.o	e30d9cc1e164dfb9
 2	670	1695622347083001104	CMakeFiles/coding_test.dir/Search/Decimal_2023.cpp.o	1787445de4613ff5
 1	680	1695622347095449490	CMakeFiles/coding_test.dir/Search/Find_the_number_1920.cpp.o	debd44f3e19437e3
+7	469	1696075270290393483	CMakeFiles/coding_test.dir/Graph/MST_1414.cpp.o	4ea4764c0712b6da
 1	798	1695622347213405092	CMakeFiles/coding_test.dir/Search/BFS_1167.cpp.o	78775cc269c7b56c
 7	447	1695974034554209890	CMakeFiles/coding_test.dir/Graph/MST_1197.cpp.o	a73b86927f2f8423
 670	1128	1695622347542949021	CMakeFiles/coding_test.dir/Search/guitar_lessons_2343.cpp.o	8813acdc38b011ef
 798	1316	1695622347732045380	CMakeFiles/coding_test.dir/Graph/lier_1043.cpp.o	e92b16ccd966b668
-1	668	1695622347082964021	CMakeFiles/coding_test.dir/Search/Kth_number_1300.cpp.o	9a22bbeb894520ff
-1	805	1695622347220430928	CMakeFiles/coding_test.dir/Search/DFSandBFS_1260.cpp.o	6e359fba06914efc
-6	598	1695974792088921609	CMakeFiles/coding_test.dir/main.cpp.o	89c19e18e5e60931
+7	491	1696313013086595876	CMakeFiles/coding_test.dir/main.cpp.o	89c19e18e5e60931
 805	1254	1695622347670203851	CMakeFiles/coding_test.dir/Sorting/QuickSort.cpp.o	5afafadb67f1731f
-598	646	1695974792138688664	coding_test	7c21cadd376b6d12
+491	538	1696313013133874251	coding_test	695cc59b85dda6ba
 1128	1498	1695622347915760230	CMakeFiles/coding_test.dir/Sorting/MergeSort.cpp.o	10028ba85b18cc4b
 7	583	1695723379054265494	CMakeFiles/coding_test.dir/Graph/1219_Bellman-Ford.cpp.o	eeb172b1eb22285c
 10	731	1695780290768211317	CMakeFiles/coding_test.dir/Graph/BFS_1325.cpp.o	6168f83ffbdc29e7
