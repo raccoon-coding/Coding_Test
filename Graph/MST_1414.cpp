@@ -8,75 +8,75 @@
  * */
 
 using namespace std;
-void calculator();
-void Union(int a, int b);
-int Find(int a);
-bool compare(const tuple <int, int, long> &a, const tuple <int, int, long> &b);
+void calculator_1414();
+void Union_1414(int a, int b);
+int Find_1414(int a);
+bool compare_1414(const tuple <int, int, long> &a, const tuple <int, int, long> &b);
 
-vector<tuple<int, int, int>> edges;
-vector<int> parent;
-int result;
+vector<tuple<int, int, int>> edges_1414;
+vector<int> parent_1414;
+int result_1414;
 
-void Union(int a, int b){
-    a = Find(a);
-    b = Find(b);
+void Union_1414(int a, int b){
+    a = Find_1414(a);
+    b = Find_1414(b);
     if(a != b) {
-        parent[b] = a;
+        parent_1414[b] = a;
     }
 }
 
-int Find(int a){
-    if(parent[a] == a)
+int Find_1414(int a){
+    if(parent_1414[a] == a)
         return a;
     else
-        return parent[a] = Find(parent[a]);
+        return parent_1414[a] = Find_1414(parent_1414[a]);
 }
 
-bool compare(const tuple <int, int, long> &a, const tuple <int, int, long> &b){
+bool compare_1414(const tuple <int, int, long> &a, const tuple <int, int, long> &b){
     return get<2>(a) < get<2>(b);
 }
 
-void calculator() {
-    for(auto & edge : edges){
+void calculator_1414() {
+    for(auto & edge : edges_1414){
         int start_node = get<0>(edge);
         int next_node = get<1>(edge);
         int weight = get<2>(edge);
 
-        if(Find(start_node) != Find(next_node) && weight != 0) {
-            Union(start_node, next_node);
-            result -= weight;
+        if(Find_1414(start_node) != Find_1414(next_node) && weight != 0) {
+            Union_1414(start_node, next_node);
+            result_1414 -= weight;
         }
     }
 }
 
 int main_1414(){
     int N = 0;
-    result = 0;
+    result_1414 = 0;
     cin >> N;
-    parent.resize(N);
+    parent_1414.resize(N);
     for(int i = 0; i < N; i++)
-        parent[i] = i;
+        parent_1414[i] = i;
     for(int i = 0; i < N; i++){
         for(int j = 0; j < N; j++){
             char temp;
             cin >> temp;
             if('a' <= temp && temp <= 'z')
-                edges.push_back(make_tuple(i, j, temp - 'a' + 1));
+                edges_1414.push_back(make_tuple(i, j, temp - 'a' + 1));
             else if (temp == '0')
-                edges.push_back(make_tuple(i, j, 0));
+                edges_1414.push_back(make_tuple(i, j, 0));
             else
-                edges.push_back(make_tuple(i, j, temp - 'A' + 27));
-            result += get<2>(edges[edges.size() - 1]);
+                edges_1414.push_back(make_tuple(i, j, temp - 'A' + 27));
+            result_1414 += get<2>(edges_1414[edges_1414.size() - 1]);
         }
     }
-    sort(edges.begin(), edges.end(), compare);
-    calculator();
+    sort(edges_1414.begin(), edges_1414.end(), compare_1414);
+    calculator_1414();
     for(int i = 1; i < N; i++){
-        if(Find(i) != Find(0)){
+        if(Find_1414(i) != Find_1414(0)){
             cout << -1 << "\n";
             return 0;
         }
     }
-    cout << result << "\n";
+    cout << result_1414 << "\n";
     return 0;
 }

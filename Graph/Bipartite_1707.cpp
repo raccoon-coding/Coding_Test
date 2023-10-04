@@ -23,7 +23,7 @@ void DFS_1707(int node) {
     }
 }
 
-int main(){
+int main_1707(){
     int K = 0;
     cin >> K;
     for(int k = 0; k <  K; k++){

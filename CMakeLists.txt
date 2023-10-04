@@ -22,4 +22,5 @@ add_executable(coding_test main.cpp
         Graph/BFS_1389.cpp
         Graph/MST_1414.cpp
         Graph/TopologicalSorting_1516.cpp
-        Graph/Bipartite_1707.cpp)
+        Graph/Bipartite_1707.cpp
+        Graph/UnionFind_1717.cpp)
