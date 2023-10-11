@@ -36,7 +36,7 @@ void dijkstra_1753(int startNode){
     }
 }
 
-int main(){
+int main_1753(){
     ios::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
