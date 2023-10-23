@@ -1,10 +1,11 @@
 # ninja log v5
 7	452	1695974065314012325	CMakeFiles/coding_test.dir/Graph/BFS_1389.cpp.o	1870c2ac44f0d8d6
 7	583	1695723379054265494	CMakeFiles/coding_test.dir/Graph/1219_Bellman-Ford.cpp.o	eeb172b1eb22285c
+4	654	1698027573687511102	CMakeFiles/coding_test.dir/Graph/Dijstra_1916.cpp.o	c19bebcd3dbfd92d
 10	731	1695780290768211317	CMakeFiles/coding_test.dir/Graph/BFS_1325.cpp.o	6168f83ffbdc29e7
-415	456	1697712047485760168	coding_test	2d1fd0ae48521951
+587	635	1698037324919056623	coding_test	6a1ce3a40a972639
 805	1254	1695622347670203851	CMakeFiles/coding_test.dir/Sorting/QuickSort.cpp.o	5afafadb67f1731f
-4	415	1697712047444105721	CMakeFiles/coding_test.dir/main.cpp.o	89c19e18e5e60931
+4	586	1698037324869010179	CMakeFiles/coding_test.dir/main.cpp.o	89c19e18e5e60931
 9	2679	1696310566113089342	CMakeFiles/coding_test.dir/Graph/TopologicalSorting_1516.cpp.o	e30d9cc1e164dfb9
 1128	1498	1695622347915760230	CMakeFiles/coding_test.dir/Sorting/MergeSort.cpp.o	10028ba85b18cc4b
 1	805	1695622347220430928	CMakeFiles/coding_test.dir/Search/DFSandBFS_1260.cpp.o	6e359fba06914efc
@@ -18,7 +19,7 @@
 798	1316	1695622347732045380	CMakeFiles/coding_test.dir/Graph/lier_1043.cpp.o	e92b16ccd966b668
 670	1128	1695622347542949021	CMakeFiles/coding_test.dir/Search/guitar_lessons_2343.cpp.o	8813acdc38b011ef
 1	668	1695622347082964021	CMakeFiles/coding_test.dir/Search/Kth_number_1300.cpp.o	9a22bbeb894520ff
-0	63	1697724090582987461	build.ninja	70204cea42b7d0cf
+0	63	1698037594617749984	build.ninja	70204cea42b7d0cf
 9	608	1696383981089346565	CMakeFiles/coding_test.dir/Graph/Bipartite_1707.cpp.o	67890bd3179bdddd
 6	636	1696312809516736519	CMakeFiles/coding_test.dir/Search/Number_of_connection_elements_11724.cpp.o	aea25f631021e23c
 795	1315	1695622347731513854	CMakeFiles/coding_test.dir/Search/ABCDE_13023.cpp.o	9841c0c11227d020
