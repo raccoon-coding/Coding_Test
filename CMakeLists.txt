@@ -28,4 +28,5 @@ add_executable(coding_test main.cpp
         Graph/Dijstra_1854.cpp
         Graph/Dijstra_1916.cpp
         Graph/TopologicalSorting_1948.cpp
-        Graph/DFS_1976.cpp)
+        Graph/DFS_1976.cpp
+        Graph/BFS_2251.cpp)
