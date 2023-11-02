@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/choeminseong/CLionProjects/coding_test/cmake-build-debug/
+cmake_ninja_workdir = /Users/minsung/CLionProjects/coding_test/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target coding_test
 
@@ -49,165 +49,171 @@ cmake_ninja_workdir = /Users/choeminseong/CLionProjects/coding_test/cmake-build-
 
 build cmake_object_order_depends_target_coding_test: phony || CMakeFiles/coding_test.dir
 
-build CMakeFiles/coding_test.dir/main.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/main.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/main.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/main.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir
 
-build CMakeFiles/coding_test.dir/Search/BFS_1167.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Search/BFS_1167.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Search/BFS_1167.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Search/BFS_1167.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Search/BFS_1167.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Search
 
-build CMakeFiles/coding_test.dir/Search/DFSandBFS_1260.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Search/DFSandBFS_1260.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Search/DFSandBFS_1260.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Search/DFSandBFS_1260.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Search/DFSandBFS_1260.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Search
 
-build CMakeFiles/coding_test.dir/Search/Kth_number_1300.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Search/Kth_number_1300.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Search/Kth_number_1300.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Search/Kth_number_1300.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Search/Kth_number_1300.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Search
 
-build CMakeFiles/coding_test.dir/Search/Find_the_number_1920.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Search/Find_the_number_1920.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Search/Find_the_number_1920.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Search/Find_the_number_1920.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Search/Find_the_number_1920.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Search
 
-build CMakeFiles/coding_test.dir/Search/Decimal_2023.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Search/Decimal_2023.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Search/Decimal_2023.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Search/Decimal_2023.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Search/Decimal_2023.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Search
 
-build CMakeFiles/coding_test.dir/Search/Maze_navigation_2178.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Search/Maze_navigation_2178.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Search/Maze_navigation_2178.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Search/Maze_navigation_2178.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Search/Maze_navigation_2178.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Search
 
-build CMakeFiles/coding_test.dir/Search/guitar_lessons_2343.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Search/guitar_lessons_2343.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Search/guitar_lessons_2343.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Search/guitar_lessons_2343.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Search/guitar_lessons_2343.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Search
 
-build CMakeFiles/coding_test.dir/Search/Number_of_connection_elements_11724.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Search/Number_of_connection_elements_11724.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Search/Number_of_connection_elements_11724.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Search/Number_of_connection_elements_11724.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Search/Number_of_connection_elements_11724.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Search
 
-build CMakeFiles/coding_test.dir/Search/ABCDE_13023.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Search/ABCDE_13023.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Search/ABCDE_13023.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Search/ABCDE_13023.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Search/ABCDE_13023.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Search
 
-build CMakeFiles/coding_test.dir/Graph/lier_1043.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Graph/lier_1043.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Graph/lier_1043.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Graph/lier_1043.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Graph/lier_1043.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Graph
 
-build CMakeFiles/coding_test.dir/Sorting/QuickSort.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Sorting/QuickSort.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Sorting/QuickSort.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Sorting/QuickSort.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Sorting/QuickSort.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Sorting
 
-build CMakeFiles/coding_test.dir/Sorting/MergeSort.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Sorting/MergeSort.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Sorting/MergeSort.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Sorting/MergeSort.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Sorting/MergeSort.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Sorting
 
-build CMakeFiles/coding_test.dir/Graph/MST_1197.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Graph/MST_1197.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Graph/MST_1197.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Graph/MST_1197.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Graph/MST_1197.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Graph
 
-build CMakeFiles/coding_test.dir/Graph/1219_Bellman-Ford.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Graph/1219_Bellman-Ford.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Graph/1219_Bellman-Ford.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Graph/1219_Bellman-Ford.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Graph/1219_Bellman-Ford.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Graph
 
-build CMakeFiles/coding_test.dir/Graph/BFS_1325.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Graph/BFS_1325.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Graph/BFS_1325.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Graph/BFS_1325.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Graph/BFS_1325.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Graph
 
-build CMakeFiles/coding_test.dir/Graph/BFS_1389.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Graph/BFS_1389.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Graph/BFS_1389.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Graph/BFS_1389.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Graph/BFS_1389.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Graph
 
-build CMakeFiles/coding_test.dir/Graph/MST_1414.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Graph/MST_1414.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Graph/MST_1414.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Graph/MST_1414.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Graph/MST_1414.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Graph
 
-build CMakeFiles/coding_test.dir/Graph/TopologicalSorting_1516.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Graph/TopologicalSorting_1516.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Graph/TopologicalSorting_1516.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Graph/TopologicalSorting_1516.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Graph/TopologicalSorting_1516.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Graph
 
-build CMakeFiles/coding_test.dir/Graph/Bipartite_1707.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Graph/Bipartite_1707.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Graph/Bipartite_1707.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Graph/Bipartite_1707.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Graph/Bipartite_1707.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Graph
 
-build CMakeFiles/coding_test.dir/Graph/UnionFind_1717.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Graph/UnionFind_1717.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Graph/UnionFind_1717.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Graph/UnionFind_1717.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Graph/UnionFind_1717.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Graph
 
-build CMakeFiles/coding_test.dir/Graph/Dijstra_1753.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Graph/Dijstra_1753.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Graph/Dijstra_1753.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Graph/Dijstra_1753.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Graph/Dijstra_1753.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Graph
 
-build CMakeFiles/coding_test.dir/Graph/Dijstra_1854.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Graph/Dijstra_1854.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Graph/Dijstra_1854.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Graph/Dijstra_1854.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Graph/Dijstra_1854.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Graph
 
-build CMakeFiles/coding_test.dir/Graph/Dijstra_1916.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Graph/Dijstra_1916.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Graph/Dijstra_1916.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Graph/Dijstra_1916.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Graph/Dijstra_1916.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Graph
 
-build CMakeFiles/coding_test.dir/Graph/TopologicalSorting_1948.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Graph/TopologicalSorting_1948.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Graph/TopologicalSorting_1948.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Graph/TopologicalSorting_1948.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Graph/TopologicalSorting_1948.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Graph
 
-build CMakeFiles/coding_test.dir/Graph/DFS_1976.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Graph/DFS_1976.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Graph/DFS_1976.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Graph/DFS_1976.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Graph/DFS_1976.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Graph
 
-build CMakeFiles/coding_test.dir/Graph/BFS_2251.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/choeminseong/CLionProjects/coding_test/Graph/BFS_2251.cpp || cmake_object_order_depends_target_coding_test
+build CMakeFiles/coding_test.dir/Graph/BFS_2251.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Graph/BFS_2251.cpp || cmake_object_order_depends_target_coding_test
   DEP_FILE = CMakeFiles/coding_test.dir/Graph/BFS_2251.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/coding_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Graph
+
+build CMakeFiles/coding_test.dir/Graph/TopologicalSorting_2252.cpp.o: CXX_COMPILER__coding_test_unscanned_Debug /Users/minsung/CLionProjects/coding_test/Graph/TopologicalSorting_2252.cpp || cmake_object_order_depends_target_coding_test
+  DEP_FILE = CMakeFiles/coding_test.dir/Graph/TopologicalSorting_2252.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/coding_test.dir
   OBJECT_FILE_DIR = CMakeFiles/coding_test.dir/Graph
 
@@ -219,8 +225,8 @@ build CMakeFiles/coding_test.dir/Graph/BFS_2251.cpp.o: CXX_COMPILER__coding_test
 #############################################
 # Link the executable coding_test
 
-build coding_test: CXX_EXECUTABLE_LINKER__coding_test_Debug CMakeFiles/coding_test.dir/main.cpp.o CMakeFiles/coding_test.dir/Search/BFS_1167.cpp.o CMakeFiles/coding_test.dir/Search/DFSandBFS_1260.cpp.o CMakeFiles/coding_test.dir/Search/Kth_number_1300.cpp.o CMakeFiles/coding_test.dir/Search/Find_the_number_1920.cpp.o CMakeFiles/coding_test.dir/Search/Decimal_2023.cpp.o CMakeFiles/coding_test.dir/Search/Maze_navigation_2178.cpp.o CMakeFiles/coding_test.dir/Search/guitar_lessons_2343.cpp.o CMakeFiles/coding_test.dir/Search/Number_of_connection_elements_11724.cpp.o CMakeFiles/coding_test.dir/Search/ABCDE_13023.cpp.o CMakeFiles/coding_test.dir/Graph/lier_1043.cpp.o CMakeFiles/coding_test.dir/Sorting/QuickSort.cpp.o CMakeFiles/coding_test.dir/Sorting/MergeSort.cpp.o CMakeFiles/coding_test.dir/Graph/MST_1197.cpp.o CMakeFiles/coding_test.dir/Graph/1219_Bellman-Ford.cpp.o CMakeFiles/coding_test.dir/Graph/BFS_1325.cpp.o CMakeFiles/coding_test.dir/Graph/BFS_1389.cpp.o CMakeFiles/coding_test.dir/Graph/MST_1414.cpp.o CMakeFiles/coding_test.dir/Graph/TopologicalSorting_1516.cpp.o CMakeFiles/coding_test.dir/Graph/Bipartite_1707.cpp.o CMakeFiles/coding_test.dir/Graph/UnionFind_1717.cpp.o CMakeFiles/coding_test.dir/Graph/Dijstra_1753.cpp.o CMakeFiles/coding_test.dir/Graph/Dijstra_1854.cpp.o CMakeFiles/coding_test.dir/Graph/Dijstra_1916.cpp.o CMakeFiles/coding_test.dir/Graph/TopologicalSorting_1948.cpp.o CMakeFiles/coding_test.dir/Graph/DFS_1976.cpp.o CMakeFiles/coding_test.dir/Graph/BFS_2251.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5
+build coding_test: CXX_EXECUTABLE_LINKER__coding_test_Debug CMakeFiles/coding_test.dir/main.cpp.o CMakeFiles/coding_test.dir/Search/BFS_1167.cpp.o CMakeFiles/coding_test.dir/Search/DFSandBFS_1260.cpp.o CMakeFiles/coding_test.dir/Search/Kth_number_1300.cpp.o CMakeFiles/coding_test.dir/Search/Find_the_number_1920.cpp.o CMakeFiles/coding_test.dir/Search/Decimal_2023.cpp.o CMakeFiles/coding_test.dir/Search/Maze_navigation_2178.cpp.o CMakeFiles/coding_test.dir/Search/guitar_lessons_2343.cpp.o CMakeFiles/coding_test.dir/Search/Number_of_connection_elements_11724.cpp.o CMakeFiles/coding_test.dir/Search/ABCDE_13023.cpp.o CMakeFiles/coding_test.dir/Graph/lier_1043.cpp.o CMakeFiles/coding_test.dir/Sorting/QuickSort.cpp.o CMakeFiles/coding_test.dir/Sorting/MergeSort.cpp.o CMakeFiles/coding_test.dir/Graph/MST_1197.cpp.o CMakeFiles/coding_test.dir/Graph/1219_Bellman-Ford.cpp.o CMakeFiles/coding_test.dir/Graph/BFS_1325.cpp.o CMakeFiles/coding_test.dir/Graph/BFS_1389.cpp.o CMakeFiles/coding_test.dir/Graph/MST_1414.cpp.o CMakeFiles/coding_test.dir/Graph/TopologicalSorting_1516.cpp.o CMakeFiles/coding_test.dir/Graph/Bipartite_1707.cpp.o CMakeFiles/coding_test.dir/Graph/UnionFind_1717.cpp.o CMakeFiles/coding_test.dir/Graph/Dijstra_1753.cpp.o CMakeFiles/coding_test.dir/Graph/Dijstra_1854.cpp.o CMakeFiles/coding_test.dir/Graph/Dijstra_1916.cpp.o CMakeFiles/coding_test.dir/Graph/TopologicalSorting_1948.cpp.o CMakeFiles/coding_test.dir/Graph/DFS_1976.cpp.o CMakeFiles/coding_test.dir/Graph/BFS_2251.cpp.o CMakeFiles/coding_test.dir/Graph/TopologicalSorting_2252.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/coding_test.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -232,7 +238,7 @@ build coding_test: CXX_EXECUTABLE_LINKER__coding_test_Debug CMakeFiles/coding_te
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/choeminseong/CLionProjects/coding_test/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/minsung/CLionProjects/coding_test/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -243,7 +249,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/choeminseong/CLionProjects/coding_test/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/choeminseong/CLionProjects/coding_test -B/Users/choeminseong/CLionProjects/coding_test/cmake-build-debug
+  COMMAND = cd /Users/minsung/CLionProjects/coding_test/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/minsung/CLionProjects/coding_test -B/Users/minsung/CLionProjects/coding_test/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -259,7 +265,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/choeminseong/CLionProjects/coding_test/cmake-build-debug
+# Folder: /Users/minsung/CLionProjects/coding_test/cmake-build-debug
 
 build all: phony coding_test
 
@@ -270,14 +276,14 @@ build all: phony coding_test
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/choeminseong/CLionProjects/coding_test/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/minsung/CLionProjects/coding_test/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/choeminseong/CLionProjects/coding_test/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/minsung/CLionProjects/coding_test/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
 
 
 #############################################
