@@ -42,7 +42,7 @@ void BFS_2251(){
     }
 }
 
-int main()
+int main_2251()
 {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
