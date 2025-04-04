@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main() {
+int main_2133() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
 
@@ -15,12 +15,14 @@ int main() {
     }
 
     vector<int> dp(n + 1, 0);
+    dp[0] = 1;
     dp[2] = 3;
-    dp[4] = 11; // dp[2] * 3 + 2
-    // dp[6] = dp[4] * 3 + dp[2] * 2;
 
-    for(int i = 3; i <= n/2; i++) {
-        dp[i * 2] = dp[(i - 1) * 2] * 3 + dp[(i - 2) * 2] * 2;
+    for(int i = 4; i <= n; i += 2) {
+        dp[i] = dp[i - 2] * 3;
+        for(int j = i - 4; j >= 0; j -= 2) {
+            dp[i] += dp[j] * 2;
+        }
     }
 
     cout << dp[n] << endl;
