@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main()
+int main_15661()
 {
     int n;
     cin >> n;

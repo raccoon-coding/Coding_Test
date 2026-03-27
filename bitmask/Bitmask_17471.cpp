@@ -9,7 +9,7 @@ int N;
 vector<int> v;
 vector<vector<int>> s;
 
-bool isConnected(int mask) {
+bool isConnected_17471(int mask) {
     int start = -1;
     for (int i = 1; i <= N; i++) {
         if (mask & (1 << i)) {
@@ -47,7 +47,7 @@ bool isConnected(int mask) {
     return false;
 }
 
-int main() {
+int main_17471() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
@@ -81,8 +81,8 @@ int main() {
         int maskB = full ^ maskA;
         if (maskB == 0) continue;
 
-        if (!isConnected(maskA)) continue;
-        if (!isConnected(maskB)) continue;
+        if (!isConnected_17471(maskA)) continue;
+        if (!isConnected_17471(maskB)) continue;
 
         int sumA = 0, sumB = 0;
         for (int i = 1; i <= N; i++) {
